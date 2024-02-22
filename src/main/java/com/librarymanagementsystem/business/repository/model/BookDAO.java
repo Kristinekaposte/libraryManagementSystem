@@ -19,7 +19,7 @@ public class BookDAO {
     @Column(name = "title", nullable = false, length = 50)
     private String title;
     @Column(name = "price", nullable = false)
-    private String price;
+    private Double price;
     @Column(name = "description")
     private String description;
 }
