@@ -14,7 +14,7 @@ public class BookDAO {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "author", nullable = false, length = 30, unique = true)
+    @Column(name = "author", nullable = false, length = 30)
     private String author;
     @Column(name = "title", nullable = false, length = 50)
     private String title;
